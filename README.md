@@ -15,5 +15,14 @@ Follow these steps to deploy the EC2 instance:
    git clone https://github.com/your-username/terraform-aws-ec2-instance.git
    cd terraform-aws-ec2-instance
 2. Initialize Terraform:
-  ```bash
-  terraform init
+   ```bash
+   terraform init
+3. Review the execution plan:
+   ```bash
+   terraform plan
+4. Apply the configuration:
+   ```bash
+   terraform apply
+5.Destroy the infrastructure (when no longer needed):
+   ```bash
+   terraform destroy
