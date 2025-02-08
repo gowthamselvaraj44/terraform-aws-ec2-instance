@@ -29,6 +29,6 @@ Follow these steps to deploy the EC2 instance:
 5. Apply the configuration:
    ```bash
    terraform apply
-6.Destroy the infrastructure (when no longer needed):
+6. Destroy the infrastructure (when no longer needed):
    ```bash
    terraform destroy
