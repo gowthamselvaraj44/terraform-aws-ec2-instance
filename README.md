@@ -11,7 +11,7 @@ Before using this Terraform code, ensure you have the following:
 3. **Git Installed**: To clone and manage this repository.
 **Usage**
 Follow these steps to deploy the EC2 instance:
-1. Create a `terraform.tfvars` file in the root directory to provide values for the variables. Example:
+1. Create a `terraform.tfvars` file in the root directory(of terraform -without-module) to provide values for the variables. Example:
    ```bash
    aws_region   = "us-east-1"
    ami_id       = "ami-0c55b159cbfafe1f0" # Replace with your desired AMI ID
